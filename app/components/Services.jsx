@@ -62,7 +62,7 @@ const Services = ({ isDarkMode, setIsDarkMode }) => {
               href="
             {link}"
             >
-              See more <Image src={assets.right_arrow} alt="image" />
+              {/* See more <Image src={assets.right_arrow} alt="image" /> */}
             </a>
           </motion.div>
         ))}

@@ -1,6 +1,7 @@
 import user_image from "./user-image.png";
 import ede from "./ede.jpg";
 import RTY from "./RTY.png";
+import LOGO_BlACK from "./LOGO_BLACK.png";
 import code_icon from "./code-icon.png";
 import code_icon_dark from "./code-icon-dark.png";
 import edu_icon from "./edu-icon.png";
@@ -39,6 +40,7 @@ import right_arrow_bold from "./right-arrow-bold.png";
 import right_arrow_bold_dark from "./right-arrow-bold-dark.png";
 import { link } from "motion/react-client";
 export const assets = {
+  LOGO_BlACK,
   user_image,
   ede,
   RTY,
@@ -107,28 +109,24 @@ export const workData = [
 export const serviceData = [
   {
     icon: assets.web_icon,
-    title: "Web design",
-    description: "Web development is the process of building, programming...",
-    link: "",
-  },
-  {
-    icon: assets.mobile_icon,
-    title: "Mobile app",
+    title: "Frontend development",
     description:
-      "Mobile app development involves creating software for mobile devices...",
+      "I build responsive, user-friendly websites. I focus on writing clean, maintainable code that brings designs to life.",
     link: "",
   },
+
   {
     icon: assets.ui_icon,
-    title: "UI/UX design",
+    title: "UI Implementation",
     description:
-      "UI/UX design focuses on creating a seamless user experience...",
+      "I translate Figma or design mockups into pixel-perfect, interactive interfaces while prioritizing accessibility and performance.",
     link: "",
   },
   {
     icon: assets.graphics_icon,
-    title: "Graphics design",
-    description: "Creative design solutions to enhance visual communication...",
+    title: "Website Optimization",
+    description:
+      "I optimize websites for speed, mobile responsiveness, and SEO, ensuring a smooth experience across all devices.",
     link: "",
   },
 ];
