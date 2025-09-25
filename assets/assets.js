@@ -38,6 +38,7 @@ import right_arrow from "./right-arrow.png";
 import send_icon from "./send-icon.png";
 import right_arrow_bold from "./right-arrow-bold.png";
 import right_arrow_bold_dark from "./right-arrow-bold-dark.png";
+import react from "react";
 import { link } from "motion/react-client";
 export const assets = {
   LOGO_BlACK,
@@ -80,6 +81,7 @@ export const assets = {
   send_icon,
   right_arrow_bold,
   right_arrow_bold_dark,
+  react,
 };
 
 export const workData = [
@@ -90,9 +92,10 @@ export const workData = [
     link: "https://moviesearch127.netlify.app/",
   },
   {
-    title: "Geo based app",
-    description: "Mobile App",
-    bgImage: "/work-2.png",
+    title: "Youtube clone",
+    description: "Web App",
+    bgImage: "/ytclone.png",
+    link: "https://youtubleclone32.netlify.app/",
   },
   {
     title: "Photography site",
@@ -154,7 +157,7 @@ export const infoList = [
 
 export const toolsData = [
   assets.vscode,
-  assets.firebase,
+  assets.react,
   assets.mongodb,
   assets.figma,
   assets.git,
