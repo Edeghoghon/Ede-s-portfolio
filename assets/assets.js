@@ -1,4 +1,6 @@
 import user_image from "./user-image.png";
+import myreact from "./myreact.png";
+import link_icon from "./link_icon.png";
 import ede from "./ede.jpg";
 import RTY from "./RTY.png";
 import LOGO_BlACK from "./LOGO_BLACK.png";
@@ -41,6 +43,8 @@ import right_arrow_bold_dark from "./right-arrow-bold-dark.png";
 import react from "react";
 import { link } from "motion/react-client";
 export const assets = {
+  link_icon,
+  myreact,
   LOGO_BlACK,
   user_image,
   ede,
@@ -90,12 +94,16 @@ export const workData = [
     description: "Web Design",
     bgImage: "/mywork22.png",
     link: "https://moviesearch127.netlify.app/",
+    longDescription:
+      "Search for movies using the TMDB API, watch trailers, and add your favorites to revisit later — fully responsive and easy to use.",
   },
   {
     title: "Youtube clone",
     description: "Web App",
     bgImage: "/ytclone.png",
     link: "https://youtubleclone32.netlify.app/",
+    longDescription:
+      "A responsive YouTube clone that integrates the YouTube API to fetch real channel data, enable video search, and allow users to watch videos seamlessly with accurate metadata.",
   },
   {
     title: "Photography site",
@@ -157,7 +165,7 @@ export const infoList = [
 
 export const toolsData = [
   assets.vscode,
-  assets.react,
+  assets.myreact,
   assets.mongodb,
   assets.figma,
   assets.git,
